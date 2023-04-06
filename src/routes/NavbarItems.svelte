@@ -5,7 +5,7 @@
 	let links = [
 		{
 			href: '/',
-			title: 'Dashboard'
+			title: 'Home'
 		},
 		{
 			href: '/about',

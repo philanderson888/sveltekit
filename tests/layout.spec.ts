@@ -2,9 +2,9 @@
 
 import { expect, test } from '@playwright/test';
 
-test('home page has "Dashboard" title', async ({ page }) => {
+test('home page has "Home" title', async ({ page }) => {
 	await page.goto('/');
-	expect(await page.textContent('h1:has-text("Dashboard")')).toBe('Dashboard');
+	expect(await page.textContent('h1:has-text("Home")')).toBe('Home');
 });
 
 test('home page has "Home" in page content', async ({ page }) => {
